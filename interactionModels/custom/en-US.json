@@ -1,0 +1,504 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "cognitive status",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "questionsIntent",
+          "slots": [
+            {
+              "name": "q_one",
+              "type": "AMAZON.FirstName"
+            },
+            {
+              "name": "q_two",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_three",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_four",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_five",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_six",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_seven",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_eight",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_nine",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_ten",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_eleven",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_twelve",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_thirteen",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_fourteen",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_fifteen",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_sixteen",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_seventeen",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_eighteen",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_nineteen",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "q_twenty",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": []
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "questionsIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "q_one",
+              "type": "AMAZON.FirstName",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1070647657602.1461737361893"
+              }
+            },
+            {
+              "name": "q_two",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1070647657602.1003321622269"
+              }
+            },
+            {
+              "name": "q_three",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1070647657602.1159381267351"
+              }
+            },
+            {
+              "name": "q_four",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.653161229374"
+              }
+            },
+            {
+              "name": "q_five",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.666344568709"
+              }
+            },
+            {
+              "name": "q_six",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.29299051585"
+              }
+            },
+            {
+              "name": "q_seven",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.1521766091961"
+              }
+            },
+            {
+              "name": "q_eight",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.1037111267728"
+              }
+            },
+            {
+              "name": "q_nine",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.1205707414876"
+              }
+            },
+            {
+              "name": "q_ten",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.962500542032"
+              }
+            },
+            {
+              "name": "q_eleven",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.949705090659"
+              }
+            },
+            {
+              "name": "q_twelve",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.218540954699"
+              }
+            },
+            {
+              "name": "q_thirteen",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.1455994118846"
+              }
+            },
+            {
+              "name": "q_fourteen",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.723074224414"
+              }
+            },
+            {
+              "name": "q_fifteen",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.491124180341"
+              }
+            },
+            {
+              "name": "q_sixteen",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.358229738061"
+              }
+            },
+            {
+              "name": "q_seventeen",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.652040568951"
+              }
+            },
+            {
+              "name": "q_eighteen",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.912011926534"
+              }
+            },
+            {
+              "name": "q_nineteen",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.1534126284092"
+              }
+            },
+            {
+              "name": "q_twenty",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1282169323673.1606522476893"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1070647657602.1461737361893",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Please tell me your full name."
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1070647657602.1159381267351",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Where are you right now?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1070647657602.1003321622269",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What is todays date?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.653161229374",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "One hundred minus seven equals what?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.666344568709",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "And seven from that?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.29299051585",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What do people usually use to cut paper?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.1521766091961",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "How many things are in a dozen?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.1037111267728",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What do you call the prickly green plant that lives in the desert?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.1205707414876",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What animal does wool come from?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.962500542032",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Say this, No ifs, ands or buts."
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.949705090659",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "say this, Methodist episcopal. "
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.218540954699",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Who is the President of the United States right now?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.1455994118846",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Who is the Vice-President?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.723074224414",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "I am going to give you a word and I want you to give me its opposite. For example, the opposite of hot is cold. What is the opposite of west?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.491124180341",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "What is the opposite of generous?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.358229738061",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Count backwards from twenty to one. You will have one minute to answer."
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.652040568951",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "I\u0027m going to read you a list of ten words. Please listen carefully and try to remember them. When I am done, tell me as many words as you can, in any order, Ready?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.912011926534",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "The words are cabin, pipe, elephant, chest, silk, theatre, watch, whip, pillow, giant. Now tell me all the words you can remember. You will have one minute to answer."
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.1534126284092",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Name as many animals as you can in one minute. Starting now."
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1282169323673.1606522476893",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Name as many words as you can start with letter F in one minute. Starting now. "
+          }
+        ]
+      }
+    ]
+  },
+  "version": "5"
+}
